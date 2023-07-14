@@ -48,7 +48,7 @@ public class Login_Page extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_page);
-        getSupportActionBar().setTitle("Login");
+
         editTextLoginEmail = findViewById(R.id.loginEmail);
         editTextLoginPwd = findViewById(R.id.loginPass);
         progressBar = findViewById(R.id.progressbBar);
